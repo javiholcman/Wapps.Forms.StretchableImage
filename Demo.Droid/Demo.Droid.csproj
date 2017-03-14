@@ -109,13 +109,13 @@
       <Project>{1CA5C45F-75A4-412A-8DE0-329D9861ECCA}</Project>
       <Name>Demo.Forms</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Wapps.Forms.StrechableImage.Droid\Wapps.Forms.StrechableImage.Droid.csproj">
-      <Project>{7682513F-DE79-4D2A-8B65-CCACEA666EF7}</Project>
-      <Name>Wapps.Forms.StrechableImage.Droid</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Wapps.Forms.StrechableImage\Wapps.Forms.StrechableImage.csproj">
+    <ProjectReference Include="..\Wapps.Forms.StretchableImage\Wapps.Forms.StretchableImage.csproj">
       <Project>{03F5DE4C-F0D0-455F-B2EF-AB59041ECF6D}</Project>
-      <Name>Wapps.Forms.StrechableImage</Name>
+      <Name>Wapps.Forms.StretchableImage</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wapps.Forms.StretchableImage.Droid\Wapps.Forms.StretchableImage.Droid.csproj">
+      <Project>{7682513F-DE79-4D2A-8B65-CCACEA666EF7}</Project>
+      <Name>Wapps.Forms.StretchableImage.Droid</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

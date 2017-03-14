@@ -54,9 +54,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Wapps.Forms.StrechableImage\Wapps.Forms.StrechableImage.csproj">
+    <ProjectReference Include="..\Wapps.Forms.StretchableImage\Wapps.Forms.StretchableImage.csproj">
       <Project>{03F5DE4C-F0D0-455F-B2EF-AB59041ECF6D}</Project>
-      <Name>Wapps.Forms.StrechableImage</Name>
+      <Name>Wapps.Forms.StretchableImage</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />

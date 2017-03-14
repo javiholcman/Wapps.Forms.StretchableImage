@@ -1,7 +1,7 @@
 ﻿using System;
-namespace Wapps.Forms.iOS
+namespace Wapps.Forms.Controls.IOS
 {
-	public static class WStreachableImageIOS
+	public static class WStretchableImageIOS
 	{
 		public static void Init()
 		{

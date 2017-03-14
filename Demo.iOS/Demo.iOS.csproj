@@ -122,21 +122,21 @@
     <Compile Include="AppDelegate.cs" />
   </ItemGroup>
   <ItemGroup>
+    <BundleResource Include="Resources\messageMe%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\Demo.Forms\Demo.Forms.csproj">
       <Project>{1CA5C45F-75A4-412A-8DE0-329D9861ECCA}</Project>
       <Name>Demo.Forms</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Wapps.Forms.StrechableImage.iOS\Wapps.Forms.StrechableImage.iOS.csproj">
-      <Project>{AE0C047F-BF8B-49A0-AF6C-9011937622C8}</Project>
-      <Name>Wapps.Forms.StrechableImage.iOS</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Wapps.Forms.StrechableImage\Wapps.Forms.StrechableImage.csproj">
+    <ProjectReference Include="..\Wapps.Forms.StretchableImage\Wapps.Forms.StretchableImage.csproj">
       <Project>{03F5DE4C-F0D0-455F-B2EF-AB59041ECF6D}</Project>
-      <Name>Wapps.Forms.StrechableImage</Name>
+      <Name>Wapps.Forms.StretchableImage</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\messageMe%403x.png" />
+    <ProjectReference Include="..\Wapps.Forms.StretchableImage.iOS\Wapps.Forms.StretchableImage.iOS.csproj">
+      <Project>{AE0C047F-BF8B-49A0-AF6C-9011937622C8}</Project>
+      <Name>Wapps.Forms.StretchableImage.iOS</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.3.3.193\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.3.3.193\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />

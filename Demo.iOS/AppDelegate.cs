@@ -15,7 +15,7 @@ namespace Demo.iOS
 			global::Xamarin.Forms.Forms.Init();
 
 			LoadApplication(new App());
-			Wapps.Forms.iOS.WStreachableImageIOS.Init();
+			Wapps.Forms.Controls.IOS.WStretchableImageIOS.Init();
 
 			return base.FinishedLaunching(app, options);
 		}

@@ -4,13 +4,13 @@ using System.ComponentModel;
 using UIKit;
 using Wapps.Forms;
 using Wapps.Forms.Controls;
-using Wapps.Forms.iOS;
+using Wapps.Forms.Controls.IOS;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 
 [assembly: ExportRenderer(typeof(WStretchableImage), typeof(WStretchableImageRenderer))]
 
-namespace Wapps.Forms.iOS
+namespace Wapps.Forms.Controls.IOS
 {
 	public class WStretchableImageRenderer : ImageRenderer
 	{

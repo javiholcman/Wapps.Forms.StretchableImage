@@ -1,0 +1,37 @@
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata minClientVersion="2.8.3">
+		<id>Wapps.Forms.StrechableImage</id>
+		<version>0.1.1</version>
+		<title>Wapps.Forms.StrechableImage - Resizable image like 9Patch for Forms</title>
+		<authors>Javier Holcman</authors>
+		<owners>Javier Holcman</owners>
+		<iconUrl>http://www.wappsfactor.com/shared/logo_bw.png</iconUrl>
+		<licenseUrl>https://github.com/javiholcman/Wapps.Forms.Map/LICENSE</licenseUrl>
+		<projectUrl>https://github.com/javiholcman/Wapps.Forms.StretchableImage</projectUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>Wapps.Forms.StrechableImage - Resizable image like 9Patch for Forms.</description>
+		<summary></summary>
+		<tags>xamarin, pcl, xam.pcl, plugin for xamarin.forms, android, xamarin.forms, ios, 9Patch, nine patch, resizable image, capInset</tags>
+		<dependencies>
+			<group targetFramework="net">
+				<dependency id="Xamarin.Forms" version="2.3.3.193" />
+			</group>
+			<group targetFramework="MonoAndroid">
+				<dependency id="Xamarin.Forms" version="2.3.3.193" />
+			</group>
+			<group targetFramework="Xamarin.iOS10">
+				<dependency id="Xamarin.Forms" version="2.3.3.193" />
+			</group>
+		</dependencies>
+	</metadata>
+	<files>
+		<!--Forms-->
+		<file src="lib/Wapps.Forms.StretchableImage.dll" target="lib/portable-win+net45+wp8+win8+wpa81/Wapps.Forms.StretchableImage.dll" />
+		
+		<!--Xamarin.Android-->
+		<file src="lib/Wapps.Forms.StretchableImage.Droid.dll" target="lib/MonoAndroid10/Wapps.Forms.StretchableImage.Droid.dll" />
+
+		<!--Xamarin.iOS-->
+		<file src="lib/Wapps.Forms.StretchableImage.iOS.dll" target="lib/Xamarin.iOS10/Wapps.Forms.StretchableImage.iOS.dll" /> 
+	</files>
+</package>

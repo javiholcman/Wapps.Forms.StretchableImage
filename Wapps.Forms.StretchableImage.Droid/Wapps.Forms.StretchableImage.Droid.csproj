@@ -6,8 +6,8 @@
     <ProjectGuid>{7682513F-DE79-4D2A-8B65-CCACEA666EF7}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>Wapps.Forms.StrechableImage.Droid</RootNamespace>
-    <AssemblyName>Wapps.Forms.StrechableImage.Droid</AssemblyName>
+    <RootNamespace>Wapps.Forms.StretchableImage.Droid</RootNamespace>
+    <AssemblyName>Wapps.Forms.StretchableImage.Droid</AssemblyName>
     <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
@@ -20,7 +20,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug</OutputPath>
+    <OutputPath>..\Wapps.Forms.StretchableImageDroid\bin\Debug</OutputPath>
     <DefineConstants>DEBUG;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -31,7 +31,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release</OutputPath>
+    <OutputPath>..\Wapps.Forms.StretchableImageDroid\bin\Release</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AndroidManagedSymbols>true</AndroidManagedSymbols>
@@ -95,9 +95,9 @@
     <AndroidResource Include="Resources\values\Strings.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Wapps.Forms.StrechableImage\Wapps.Forms.StrechableImage.csproj">
+    <ProjectReference Include="..\Wapps.Forms.StretchableImage\Wapps.Forms.StretchableImage.csproj">
       <Project>{03F5DE4C-F0D0-455F-B2EF-AB59041ECF6D}</Project>
-      <Name>Wapps.Forms.StrechableImage</Name>
+      <Name>Wapps.Forms.StretchableImage</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

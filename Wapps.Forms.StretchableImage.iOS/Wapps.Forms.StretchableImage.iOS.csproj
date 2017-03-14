@@ -6,8 +6,8 @@
     <ProjectGuid>{AE0C047F-BF8B-49A0-AF6C-9011937622C8}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>Wapps.Forms.StrechableImage.iOS</RootNamespace>
-    <AssemblyName>Wapps.Forms.StrechableImage.iOS</AssemblyName>
+    <RootNamespace>Wapps.Forms.StretchableImage.iOS</RootNamespace>
+    <AssemblyName>Wapps.Forms.StretchableImage.iOS</AssemblyName>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -64,16 +64,16 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WStretchableImageRenderer.cs" />
-    <Compile Include="WStreachableImageIOS.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Wapps.Forms.StrechableImage\Wapps.Forms.StrechableImage.csproj">
-      <Project>{03F5DE4C-F0D0-455F-B2EF-AB59041ECF6D}</Project>
-      <Name>Wapps.Forms.StrechableImage</Name>
-    </ProjectReference>
+    <Compile Include="WStretchableImageIOS.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Wapps.Forms.StretchableImage\Wapps.Forms.StretchableImage.csproj">
+      <Project>{03F5DE4C-F0D0-455F-B2EF-AB59041ECF6D}</Project>
+      <Name>Wapps.Forms.StretchableImage</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.3.3.193\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.3.3.193\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />
