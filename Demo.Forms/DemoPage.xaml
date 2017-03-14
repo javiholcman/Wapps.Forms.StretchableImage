@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:Demo" 
+	xmlns:Wapps="clr-namespace:Wapps.Forms.Controls;assembly=Wapps.Forms.StrechableImage"
+	x:Class="Demo.DemoPage">
+	
+	<StackLayout Padding="10">
+		<Label Text="Welcome to Xamarin Forms!" HorizontalOptions="Center" />
+		<Wapps:WStretchableImage HorizontalOptions="Center" HeightRequest="50" WidthRequest="150" Source="messageMe" CapInsets="13,10,9,9"/>
+		<Wapps:WStretchableImage HorizontalOptions="Center" HeightRequest="80" WidthRequest="150" Source="messageMe" CapInsets="13,10,9,9"/>
+		<Wapps:WStretchableImage HorizontalOptions="Center" HeightRequest="30" WidthRequest="280" Source="messageMe" CapInsets="13,10,9,9" />
+	</StackLayout>
+
+</ContentPage>
