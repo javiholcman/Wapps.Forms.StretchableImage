@@ -1,7 +1,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
 	<metadata minClientVersion="2.8.3">
 		<id>Wapps.Forms.StrechableImage</id>
-		<version>0.1.1</version>
+		<version>0.1.4</version>
 		<title>Wapps.Forms.StrechableImage - Resizable image like 9Patch for Forms</title>
 		<authors>Javier Holcman</authors>
 		<owners>Javier Holcman</owners>
@@ -32,6 +32,7 @@
 		<file src="lib/Wapps.Forms.StretchableImage.Droid.dll" target="lib/MonoAndroid10/Wapps.Forms.StretchableImage.Droid.dll" />
 
 		<!--Xamarin.iOS-->
-		<file src="lib/Wapps.Forms.StretchableImage.iOS.dll" target="lib/Xamarin.iOS10/Wapps.Forms.StretchableImage.iOS.dll" /> 
+		<file src="lib/Wapps.Forms.StretchableImage.iOS.dll" target="lib/Xamarin.iOS10/Wapps.Forms.StretchableImage.iOS.dll" />
+		<file src="lib/Wapps.Forms.StretchableImage.dll" target="lib/Xamarin.iOS10/Wapps.Forms.StretchableImage.dll" />
 	</files>
 </package>

@@ -16,7 +16,7 @@ namespace Demo.iOS
 
 			LoadApplication(new App());
 			Wapps.Forms.Controls.IOS.WStretchableImageIOS.Init();
-
+			
 			return base.FinishedLaunching(app, options);
 		}
 	}
