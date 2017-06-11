@@ -8,6 +8,10 @@
 		<Wapps:WStretchableImage HorizontalOptions="Center" HeightRequest="50" WidthRequest="150" Source="messageMe" CapInsets="13,10,9,9"/>
 		<Wapps:WStretchableImage HorizontalOptions="Center" HeightRequest="80" WidthRequest="150" Source="messageMe" CapInsets="13,10,9,9"/>
 		<Wapps:WStretchableImage HorizontalOptions="Center" HeightRequest="30" WidthRequest="280" Source="messageMe" CapInsets="13,10,9,9" />
-	</StackLayout>
 
+        <Wapps:WStackLayout BackgroundImage="messageMe" BackgroundCapInsets="13,10,9,9" WidthRequest="200" HeightRequest="200" VerticalOptions="End" HorizontalOptions="CenterAndExpand">
+            <Label Text="Hello !" />
+        </Wapps:WStackLayout>        
+	</StackLayout>
+    
 </ContentPage>

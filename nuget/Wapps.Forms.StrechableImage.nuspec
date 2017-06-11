@@ -1,7 +1,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
 	<metadata minClientVersion="2.8.3">
 		<id>Wapps.Forms.StrechableImage</id>
-		<version>0.1.4</version>
+		<version>0.1.5</version>
 		<title>Wapps.Forms.StrechableImage - Resizable image like 9Patch for Forms</title>
 		<authors>Javier Holcman</authors>
 		<owners>Javier Holcman</owners>
@@ -14,13 +14,13 @@
 		<tags>xamarin, pcl, xam.pcl, plugin for xamarin.forms, android, xamarin.forms, ios, 9Patch, nine patch, resizable image, capInset</tags>
 		<dependencies>
 			<group targetFramework="net">
-				<dependency id="Xamarin.Forms" version="2.3.3.193" />
+				<dependency id="Xamarin.Forms" version="2.3.4.247" />
 			</group>
 			<group targetFramework="MonoAndroid">
-				<dependency id="Xamarin.Forms" version="2.3.3.193" />
+				<dependency id="Xamarin.Forms" version="2.3.4.247" />
 			</group>
 			<group targetFramework="Xamarin.iOS10">
-				<dependency id="Xamarin.Forms" version="2.3.3.193" />
+				<dependency id="Xamarin.Forms" version="2.3.4.247" />
 			</group>
 		</dependencies>
 	</metadata>

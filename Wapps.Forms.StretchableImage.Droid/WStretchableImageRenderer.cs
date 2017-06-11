@@ -82,8 +82,14 @@ namespace Wapps.Forms.Droid
 
 		int px(int dp, Bitmap bm)
 		{
-			return dp * bm.Density / 160;
+            return dp * rate(bm);
+            //return dp * 4;
 		}
+
+        int rate (Bitmap bm) 
+        {
+            return bm.Density / 160;
+        }
 
 		public NinePatch CreateFixedNinePatch(string fileName, int top, int left, int bottom, int right)
 		{
@@ -100,8 +106,8 @@ namespace Wapps.Forms.Droid
 			srcName = Guid.NewGuid().ToString();
 			top = px(top, bitmap);
 			left = px(left, bitmap);
-			bottom = height - px(bottom, bitmap);
-			right = width - px(right, bitmap);
+            bottom = bitmap.Width - px(bottom, bitmap);
+            right = bitmap.Height - px(right, bitmap);
 
 			var buffer = GetByteBufferFixed(top, left, bottom, right);
 

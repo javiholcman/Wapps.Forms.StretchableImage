@@ -7,7 +7,6 @@ namespace Demo
 		public DemoPage()
 		{
 			InitializeComponent();
-			
 		}
 	}
 }
